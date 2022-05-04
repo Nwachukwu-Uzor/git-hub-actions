@@ -16,11 +16,11 @@ jobs:
         with:
           dotnet-version: "5.0.x"
 
-      - name: Restore dependencies
+      - name: Restore dependencies 🛠
         run: dotnet restore
 
-      - name: Build application
+      - name: Build application 🚀
         run: dotnet build -c Release --no-restore
 
-      - name: Run automated tests
+      - name: Run automated tests 🧪
         run: dotnet test -c Release --no-build
